@@ -46,9 +46,9 @@ export default function RootLayout({
       <body>
         <ThemeProvider
           attribute="theme"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableColorScheme={true}
-          enableSystem={false}
+          enableSystem={true}
         >
           <Main>
             <Article>{children}</Article>

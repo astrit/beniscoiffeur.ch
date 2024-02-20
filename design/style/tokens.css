@@ -1,21 +1,6 @@
 :root {
-  --color-primary: #fc0;
   --color-bg: white;
   --color-text: black;
-  --color-text-dim: hsl(0, 0%, 44%);
-  --color-hover: hsl(0, 0%, 98%);
-  --color-bg-dim: hsl(0, 0%, 98%);
-  --color-border: hsl(0, 0%, 95%);
-  --color-accent: #6c54ff;
-  --color-accent-light: #ed7dff;
-  --color-alert: hsla(45, 95%, 69%, 1);
-  --color-alert-dim: hsla(45, 95%, 69%, 0.06);
-  --box-size: 100px;
-  --gap: 40px;
-  --max-width: 1440px;
-  --stroke-width: 2;
-  --transition: all 248ms linear;
-  --stroke: var(--stroke-width) solid var(--color-border);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,9 +8,5 @@
     color-scheme: dark;
     --color-bg: black;
     --color-text: hsl(0 0% 100%);
-    --color-text-dim: hsl(0 0% 60%);
-    --color-bg-dim: hsl(0 0% 0.5%);
-    --color-hover: hsl(0 0% 4%);
-    --color-border: hsl(0, 0%, 8%);
   }
 }
