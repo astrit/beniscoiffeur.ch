@@ -1,0 +1,5 @@
+.toggle {
+  position: fixed;
+  inset: auto auto 40px 40px;
+  grid-area: toggle;
+}

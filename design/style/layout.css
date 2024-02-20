@@ -1,0 +1,11 @@
+/* main {
+  display: grid;
+  grid-template-areas:
+    "logo header gram"
+    "left main right"
+    "theme footer top";
+  grid-template-columns: var(--box-size) 1fr var(--box-size);
+  grid-template-rows: auto;
+  max-width: var(--max-width);
+  margin: 0 auto;
+} */
