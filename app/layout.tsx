@@ -8,8 +8,6 @@ import { ThemeProvider } from "$/theme/provider"
 
 import "#/global.css"
 
-const inter = Inter({ subsets: ["latin"] })
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://beniscoiffeur.ch"),
   title: {
