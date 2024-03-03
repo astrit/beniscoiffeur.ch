@@ -10,3 +10,9 @@
     --color-text: hsl(0 0% 100%);
   }
 }
+
+[theme="dark"] {
+  color-scheme: dark;
+  --color-bg: black;
+  --color-text: hsl(0 0% 100%);
+}
